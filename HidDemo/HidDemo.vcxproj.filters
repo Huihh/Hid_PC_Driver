@@ -30,6 +30,18 @@
     <ClInclude Include="resource.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="hidpi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hidsdi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hidusage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SETUPAPI.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="HidDemo.cpp">
@@ -51,6 +63,7 @@
     <None Include="res\HidDemo.rc2">
       <Filter>资源文件</Filter>
     </None>
+    <None Include="Version_Info.htm" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\HidDemo.ico">
@@ -62,5 +75,9 @@
     <Image Include="res\Toolbar256.bmp">
       <Filter>资源文件</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="hid.lib" />
+    <Library Include="setupapi.lib" />
   </ItemGroup>
 </Project>
